@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FaStar } from "react-icons/fa";
-import { testimonialsDataOfPeople } from "./TestiData";
+import { testimonialsDataOfPeople } from "./testiData";
 import "./testimony.css";
 
 const AUTOPLAY_MS = 4000;
