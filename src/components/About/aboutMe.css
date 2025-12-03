@@ -1,9 +1,10 @@
-*{
-
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 :root {
   /* --primary: #2563eb; */

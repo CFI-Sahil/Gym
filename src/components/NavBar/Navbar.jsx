@@ -11,7 +11,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
         <>
-            <motion.nav initial={{ opacity: 0, y: -100 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }} viewport={{ once: true }} className='sticky top-0 z-50 w-full bg-white shadow-md'>
+            <motion.nav initial={{ opacity: 0, y: -100 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }} viewport={{ once: true }} className='fixed top-0 left-0 z-50 w-full bg-white shadow-md'>
                 <div className='container px-[22px] md:px-10 lg:px-[3.2rem] flex items-center justify-between py-6 xl:px-0 md:mx-auto'>
                     {/* logo section */}
                     <div className="flex items-center font-bold text-2xl gap-2 uppercase cursor-pointer">

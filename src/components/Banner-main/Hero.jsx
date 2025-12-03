@@ -43,7 +43,7 @@ const Hero = () => {
 
     return (
         <section>
-            <div className="container mx-auto px-6 md:p-10 lg:p-12 xl:p-0 my-10 md:my-0 md:mt-0 lg:mt-2 xl:mt-14 banner-slider">
+            <div className="container mx-auto px-6 md:p-10 lg:p-12 xl:p-0 my-10 md:my-0 mt-26 md:mt-20 xl:mt-35 banner-slider">
                 <Slider {...sliderSettings}>
                     {banners.map((banner, index) => (
                         <div key={index}>
