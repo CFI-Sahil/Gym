@@ -11,7 +11,7 @@ const Offers = () => {
             <section>
                 <div className='container mx-auto pt-280 md:pt-200 lg:pt-80 xl:pt-62 mb-14 px-6 md:px-8 lg:px-10 xl:px-0'>
                     {/* offer container */}
-                    <motion.div initial={{opacity:0, x:-100}} whileInView={{opacity:1, x:0}} transition={{ type:"spring", stiffness:300, damping:8, duration:0.5, delay:0.3}} viewport={{once:true}} className='w-full lg:h-[55vh] 2xl:h-[50vh] bg-white rounded-2xl p-10 md:p-10 lg:p-15 lg:px-0 shadow-xl'>
+                    <motion.div initial={{opacity:0, x:-100}} whileInView={{opacity:1, x:0}} transition={{ type:"spring", stiffness:300, damping:8, duration:0.5, delay:0.3}} viewport={{once:true}} className='w-full lg:min-h-[55vh] xl:min-h-[60vh] 2xl:h-[50vh] bg-white rounded-2xl p-10 md:p-10 lg:p-15 lg:px-0 shadow-xl'>
                         {/* offer heading section */}
                         <div className='flex justify-center'>
                             <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold capitalize col-ch-idk mb-10'>Offers For You</h1>

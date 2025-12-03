@@ -10,7 +10,7 @@ const Benefit = () => {
       <section>
         <div className='container mx-auto pt-4 px-6 md:px-8 lg:px-10 xl:px-0 mb-14'>
           {/* offer container */}
-          <motion.div initial={{opacity:0, x:100}} whileInView={{opacity:1, x:0}} transition={{ type:"spring", stiffness:300, damping:8, duration:0.5, delay:0.3}} viewport={{once:true}} className='w-full lg:h-[55vh] 2xl:h-[50vh] bg-white rounded-2xl shadow-xl p-10 md:p-10 lg:p-16 lg:px-0'>
+          <motion.div initial={{opacity:0, x:100}} whileInView={{opacity:1, x:0}} transition={{ type:"spring", stiffness:300, damping:8, duration:0.5, delay:0.3}} viewport={{once:true}} className='w-full lg:min-h-[55vh] xl:min-h-[60vh] 2xl:h-[50vh] bg-white rounded-2xl shadow-xl p-10 md:p-10 lg:p-16 lg:px-0'>
             {/* offer heading section */}
             <div className='flex justify-center text-center'>
               <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold col-ch-idk mb-10'>What Benefits You Will Get</h1>
