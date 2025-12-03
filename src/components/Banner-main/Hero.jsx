@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
-
 import Banner1 from '../../assets/Banner_1.jpg';
 import Banner2 from '../../assets/Banner_2.jpg';
 import Banner3 from '../../assets/Banner_3.jpg';
