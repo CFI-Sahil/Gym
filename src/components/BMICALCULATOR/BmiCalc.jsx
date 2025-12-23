@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {underWeight} from './bmi'
 import {overWeight} from './bmi'
+// eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react";
 import './bim.css'
 const BmiCalc = () => {
@@ -25,7 +26,7 @@ const BmiCalc = () => {
     };
     return (
         <>
-            <motion.h1 initial={{opacity: 0, y: 100}} whileInView={{opacity: 1, y: 0}} transition={{ duration: 0.5 }} viewport={{once:true}} className=' capitalize text-center text-2xl lg:text-3xl xl:text-5xl font-extrabold mt-20 text-gr-bl'>Calculate your bmi</motion.h1>
+            <motion.h1 initial={{opacity: 0, y: 100}} whileInView={{opacity: 1, y: 0}} transition={{ duration: 0.5 }} viewport={{once:true}} className=' text-center text-2xl lg:text-3xl xl:text-5xl font-extrabold mt-20 text-gr-bl'>Calculate Your BMI</motion.h1>
             <div className={`container mx-auto grid place-items-center mb-14 mt-10 cont-column ${
         showDietPlans ? 'grid-cols-3' : 'grid-cols-1'}`}>
                 {/* diet plan 1 */}
@@ -44,7 +45,7 @@ const BmiCalc = () => {
                 {/* bmi calculator section */}
                 <motion.div initial={{opacity: 0, y: 100}} whileInView={{opacity: 1, y: 0}} transition={{ duration: 0.5 }} viewport={{once:true}} className="bg-white for-thsefi p-10 lg:p-8 xl:p-10 my-10  lg:m-0 rounded-xl shadow-md h-[450px] w-[380px] lg:h-[480px] xl:h-[450px] lg:w-[300px] xl:w-[380px]">
                     {/* heading section */}
-                    <h2 className=" capitalize text-center text-2xl lg:text-3xl xl:text-4xl font-bold  mb-8 md:mb-10 lg:mb-10 tex-cha-to-he">bmi Calculator</h2>
+                    <h2 className="text-center text-2xl lg:text-3xl xl:text-4xl font-bold mb-8 md:mb-10 lg:mb-10 tex-cha-to-he">BMI Calculator</h2>
 
                     <label className="block mb-1">Weight: {weight} kg</label>
                     <input
